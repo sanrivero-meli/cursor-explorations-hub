@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Team Explorations Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    <i class="fas fa-rocket"></i>
+                    Cursor Explorations Hub
+                </h1>
+                <p class="tagline">Discover, explore, and innovate with our team's latest projects</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#all" class="nav-link active" data-category="all">All Projects</a></li>
+                <li><a href="#product-dev" class="nav-link" data-category="product-dev">Product Development</a></li>
+                <li><a href="#ai-labs" class="nav-link" data-category="ai-labs">AI Labs</a></li>
+                <li><a href="#explorations" class="nav-link" data-category="explorations">Explorations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <section class="stats">
+                <div class="stat-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>12</h3>
+                    <p>Active Projects</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>8</h3>
+                    <p>Team Members</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>47</h3>
+                    <p>Explorations</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>23</h3>
+                    <p>Ideas in Queue</p>
+                </div>
+            </section>
+
+            <section class="explorations">
+                <h2 class="section-title">Current Explorations</h2>
+                <div class="explorations-grid">
+                    
+                    <!-- Product Development Projects -->
+                    <div class="exploration-card" data-category="product-dev">
+                        <div class="card-header">
+                            <i class="fas fa-shopping-cart product-dev-icon"></i>
+                            <span class="category-badge product-dev">Product Dev</span>
+                        </div>
+                        <h3>E-commerce Platform</h3>
+                        <p>Modern React-based e-commerce solution with advanced filtering and payment integration.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">React</span>
+                                <span class="tech">Node.js</span>
+                                <span class="tech">MongoDB</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="exploration-card" data-category="product-dev">
+                        <div class="card-header">
+                            <i class="fas fa-palette product-dev-icon"></i>
+                            <span class="category-badge product-dev">Product Dev</span>
+                        </div>
+                        <h3>Design System Library</h3>
+                        <p>Comprehensive component library with Storybook documentation and theme support.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">Vue.js</span>
+                                <span class="tech">Storybook</span>
+                                <span class="tech">SCSS</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="exploration-card" data-category="product-dev">
+                        <div class="card-header">
+                            <i class="fas fa-mobile-alt product-dev-icon"></i>
+                            <span class="category-badge product-dev">Product Dev</span>
+                        </div>
+                        <h3>Habit Tracker App</h3>
+                        <p>Cross-platform mobile app for tracking daily habits with gamification elements.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">React Native</span>
+                                <span class="tech">Firebase</span>
+                                <span class="tech">Redux</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- AI Labs Projects -->
+                    <div class="exploration-card" data-category="ai-labs">
+                        <div class="card-header">
+                            <i class="fas fa-brain ai-labs-icon"></i>
+                            <span class="category-badge ai-labs">AI Labs</span>
+                        </div>
+                        <h3>Code Review Assistant</h3>
+                        <p>AI-powered tool that analyzes code quality and suggests improvements using GPT-4.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">Python</span>
+                                <span class="tech">OpenAI</span>
+                                <span class="tech">Flask</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="exploration-card" data-category="ai-labs">
+                        <div class="card-header">
+                            <i class="fas fa-chart-line ai-labs-icon"></i>
+                            <span class="category-badge ai-labs">AI Labs</span>
+                        </div>
+                        <h3>Predictive Analytics Dashboard</h3>
+                        <p>Real-time dashboard for business intelligence with machine learning predictions.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">TensorFlow</span>
+                                <span class="tech">D3.js</span>
+                                <span class="tech">FastAPI</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Explorations -->
+                    <div class="exploration-card" data-category="explorations">
+                        <div class="card-header">
+                            <i class="fas fa-tools explorations-icon"></i>
+                            <span class="category-badge explorations">Explorations</span>
+                        </div>
+                        <h3>Developer CLI Toolkit</h3>
+                        <p>Command-line interface with utilities for common development tasks and automation.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">Go</span>
+                                <span class="tech">Cobra</span>
+                                <span class="tech">Docker</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="exploration-card" data-category="explorations">
+                        <div class="card-header">
+                            <i class="fas fa-database explorations-icon"></i>
+                            <span class="category-badge explorations">Explorations</span>
+                        </div>
+                        <h3>Database Migration Tool</h3>
+                        <p>Automated database schema migration and version control system.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">PostgreSQL</span>
+                                <span class="tech">Rust</span>
+                                <span class="tech">GraphQL</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="exploration-card" data-category="explorations">
+                        <div class="card-header">
+                            <i class="fas fa-flask explorations-icon"></i>
+                            <span class="category-badge explorations">Explorations</span>
+                        </div>
+                        <h3>WebAssembly Game Engine</h3>
+                        <p>Experimental 2D game engine compiled to WebAssembly for browser-based games.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">Rust</span>
+                                <span class="tech">WASM</span>
+                                <span class="tech">Canvas</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="exploration-card" data-category="explorations">
+                        <div class="card-header">
+                            <i class="fas fa-vr-cardboard explorations-icon"></i>
+                            <span class="category-badge explorations">Explorations</span>
+                        </div>
+                        <h3>AR Code Visualization</h3>
+                        <p>Augmented reality tool for visualizing code structure in 3D space.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span class="tech">Three.js</span>
+                                <span class="tech">WebXR</span>
+                                <span class="tech">TypeScript</span>
+                            </div>
+                            <a href="#" class="explore-btn">
+                                <i class="fas fa-external-link-alt"></i>
+                                Explore
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="add-project">
+                <div class="add-project-card">
+                    <i class="fas fa-plus-circle"></i>
+                    <h3>Have a New Idea?</h3>
+                    <p>Submit your exploration idea and let's make it happen together!</p>
+                    <a href="#" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Submit Idea
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cursor Team Explorations. Built with ❤️ and curiosity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
